@@ -17,7 +17,7 @@ namespace API.Controllers
 
         public UsersController(DataContext  context)
         {
-            _context = context;
+             _context = context;
         }
 
         [HttpGet]
